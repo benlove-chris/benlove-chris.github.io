@@ -66,7 +66,7 @@ $("#link_listar_pacientes").click(function(){
 
 	//alert("Oi!")};
 	$.ajax({
-		url: 'urlany/listar_pacientes',
+		url: urlany + '/listar_pacientes',
 		method: 'GET',
 		dataType: 'json',
 		success: listar_pacientes,
@@ -124,7 +124,7 @@ $("#botao_cadastrar_paciente").click(function(){
     //mandar para o back-end
 
     $.ajax({
-            url : 'urlany/cadastrar_paciente',
+            url : urlany + '/cadastrar_paciente',
             type : 'POST',
             contentType : 'application/json', // enviando dados em json
             dataType: 'json',
