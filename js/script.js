@@ -6,7 +6,7 @@ $( document ).ready(function() {
     $("#link_listar_pacientes").click(function(){
         
         $.ajax({
-            url: 'http://localhost:5000/listar_pacientes',
+            url: 'urlany/listar_pacientes',
             method: 'GET',
             dataType: 'json', // os dados são recebidos no formato json
             success: listar_pacientes, // chama a função listar_pacientes para processar o resultado
@@ -60,12 +60,13 @@ $( document ).ready(function() {
 
 
 //Meu js
+var urlany = 'https://pychris.pythonanywhere.com/'
 
 $("#link_listar_pacientes").click(function(){
 
 	//alert("Oi!")};
 	$.ajax({
-		url: 'http://localhost:5000/listar_pacientes',
+		url: 'urlany/listar_pacientes',
 		method: 'GET',
 		dataType: 'json',
 		success: listar_pacientes,
@@ -123,7 +124,7 @@ $("#botao_cadastrar_paciente").click(function(){
     //mandar para o back-end
 
     $.ajax({
-            url : 'http://localhost:5000/cadastrar_paciente',
+            url : 'urlany/cadastrar_paciente',
             type : 'POST',
             contentType : 'application/json', // enviando dados em json
             dataType: 'json',
