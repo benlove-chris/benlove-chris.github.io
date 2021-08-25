@@ -60,7 +60,7 @@ $( document ).ready(function() {
 
 
 //Meu js
-var urlany = 'https://pychris.pythonanywhere.com/'
+var urlany = 'https://pychris.pythonanywhere.com/';
 
 $("#link_listar_pacientes").click(function(){
 
