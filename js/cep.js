@@ -4,7 +4,7 @@ function limpa_formulário_cep() {
     document.getElementById('bairro').value=("");
     document.getElementById('cidade').value=("");
     document.getElementById('uf').value=("");
-    
+    //document.getElementById('ibge').value=("");
 }
 
 
@@ -15,7 +15,8 @@ function meu_callback(conteudo) {
         document.getElementById('bairro').value=(conteudo.bairro);
         document.getElementById('cidade').value=(conteudo.localidade);
         document.getElementById('uf').value=(conteudo.uf);
-        
+        //document.getElementById('ibge').value=(conteudo.ibge);
+        } //end if.
         else {
             //CEP não Encontrado.
             limpa_formulário_endereco();
@@ -26,8 +27,9 @@ function meu_callback(conteudo) {
 
 
 function pesquisacep(valor) {
-    
-        // "cep" somente com dígitos.
+    // alert("Fui clicado")
+
+        //Nova variável "cep" somente com dígitos.
         var cep = valor.replace(/\D/g, '');
 
         //Verifica se campo cep possui valor informado.
@@ -44,7 +46,7 @@ function pesquisacep(valor) {
                 document.getElementById('bairro').value="...";
                 document.getElementById('cidade').value="...";
                 document.getElementById('uf').value="...";
-       
+                //document.getElementById('ibge').value="...";
 
                 //Cria um elemento javascript.
                 var script = document.createElement('script');
@@ -70,3 +72,8 @@ function pesquisacep(valor) {
 
 
 
+
+
+function testar(){
+    alert("Ola mundo");
+}
