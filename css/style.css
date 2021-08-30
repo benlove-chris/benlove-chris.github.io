@@ -1,0 +1,200 @@
+
+/*------------------------------------------*/
+body{
+    overflow-x: hidden;
+    /*background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    
+
+}
+.container{
+    
+}
+
+
+
+#overlay{
+    
+    width: 100%;
+    background-color: #001133;/*#001133*/
+    
+    opacity: 0.93;
+    
+}
+  /*#fundo{
+    height: 94%;
+    width: 100%;
+    position: absolute;
+    
+  }*/
+
+/*
+ background: black; 
+  opacity: 0.6;
+  border: 10px double transparent;
+  height: 80%;
+  width: 90%;
+ 
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-bottom: 0%;
+  border-radius: 50px;
+  position: absolute;*/
+
+  
+
+  #conteudo{
+    
+
+  }
+
+
+
+
+  #form{
+    margin-top: 10%;
+    padding-top: 0.3%;
+background: rgb(0,17,51);
+background: linear-gradient(0deg, rgba(0,17,51,1) 1%, rgba(179,204,255,1) 92%);
+    padding-bottom: 10%;
+    
+  }
+  form{
+    background: white;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 10%;
+    text-align: justify;
+    border: 3px solid #001133;
+      padding: 5%;
+      border-radius: 25px;
+      
+      color: black;
+      /*box-shadow: 5px 5px 8px black, 10px 10px 8px #001133, 15px 15px 8px white;*/
+      
+    
+  }
+
+  hr{
+    margin-right: 15%;
+  }
+  form * {
+    margin-left: 10%;
+  }
+  
+  form input{
+    
+
+  }
+
+h5{
+
+}
+
+#head-text{
+    
+    margin-right: 10%;
+    
+
+}
+.title{
+    padding-bottom: 5%;
+}
+
+
+
+  #texto{
+    margin-bottom: 16%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  
+
+
+
+ 
+  #vermais{
+    color: #001133;
+    background-color: white;
+
+
+
+  }
+  #cpfCandidato{
+    text-decoration: none;
+  }
+ 
+
+
+#fundo{
+    background-image: url(../img/computer1.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+#conteudo-inicial{
+    position: relative;
+    color: white;
+    text-align: justify;
+    margin-top: ;
+
+
+}
+
+
+#cabeca{
+margin-top: 5%;
+}
+
+#previa{
+    position: absolute;
+    height: 3%;
+    border-radius: 33px;
+    margin-right: 40%;
+    margin-left: 30%;
+    width: 30%;
+    text-align: center;
+    color: black;
+    background-color: gray;
+}
+
+
+
+
+#erroCPF{
+    color: red;
+}
+
+
+#botao {
+    
+    
+    
+    background: linear-gradient(to left, white 50%, #90ee90 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    border-color: black;
+    background-color: white;
+    text-align: center;
+    color: black;
+    width: 55%;
+    border-color: #001133;
+    
+    
+}
+
+#botao:hover{
+    background-position: left bottom;
+}
+#botao{
+    
+  }
+ 
