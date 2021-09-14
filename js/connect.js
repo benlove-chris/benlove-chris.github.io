@@ -5,7 +5,7 @@ const dadosFormulario = () => {
 
     let dados = {   
         
-
+        
         nome: document.getElementById('nome').value,
         cargoPretendido: document.getElementById('cargoPretendido').value,
         profissao: document.getElementById('profissao').value,
@@ -26,6 +26,29 @@ const dadosFormulario = () => {
         cpfCandidato: document.getElementById('cpfCandidato').value,
         possuiVeiculo: document.getElementById('possuiVeiculo').value,
         habilitacao: document.getElementById('habilitacao').value 
+
+
+        /*
+        nome : 'Luiz',
+        cargoPretendido : 'Chefao',
+        profissao : 'Chefe nepai',
+        dataNascimento : '20-22-2001',
+        estadoCivil : 'Casado chefe',
+        genero : 'macho alpha',
+        cepCandidato : '890-70615',
+        logradouro : 'Rua paulo sao',
+        numeroCasa : 23 ,
+        bairro : 'garcia',
+        cidade : 'blumenau',
+        uf : 'SC',
+        telefone : 232321 ,
+        celular : 3232323,
+        contato : 3232323,
+        email : 'ricardopai@gmail.com',
+        identidade : 'G192312',
+        cpfCandidato : 12921212,
+        possuiVeiculo : 'Sim',
+        habilitacao : "A"*/
 
         
         
@@ -53,6 +76,31 @@ const cadastrarCandidato = async(candidate) => {
     });
     if (candidato.status === 200) {
         alert("Cadastro realizado com sucesso! ");
+        //$("#nome").val("");
+        //$("#sobrenome").val("");
+        $("#nome").value("");
+        $("#cargoPretendido").value("");
+        $("#profissao").value("");
+        $("#dataNascimento").value("");
+        $("#estadoCivil").value("");
+        $("#genero").value("");
+        $("#cepCandidato").value("");
+        $("#logradouro").value("");
+        $("#numeroCasa").value("");
+        $("#bairro").value("");
+        $("#cidade").value("");
+        $("#uf").value("");
+        $("#telefone").value("");
+        $("#celular").value("");
+        $("#contato").value("");
+        $("#email").value("");
+        $("#identidade").value("");
+        $("#cpfCandidato").value("");
+        $("#possuiVeiculo").value("");
+        $("#habilitacao").value("");
+
+
+
     }else if(candidato.status === 500){
         alert("Certifique se de que esses dados estaõ corretos ou não foram cadastrado.");
     }
