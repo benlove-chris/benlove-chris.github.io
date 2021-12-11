@@ -1,5 +1,5 @@
 
-let link_backend_listar = "http://pychris.pythonanywhere.com/";
+
 var id_paciente = document.location.search.replace(/^.*?\=/,'');
 
 // todos os pacientes - funcão para adm
@@ -8,7 +8,7 @@ function listarPacientes() {
 
 
     $.ajax({
-        url: link_backend_listar+'listar/Paciente',
+        url: link_backend+'listar/Paciente',
         method: 'GET',
         dataType: 'json',
         success: listar_pacientes,
@@ -46,7 +46,7 @@ function listarMedicos() {
 
 
     $.ajax({
-        url: link_backend_listar+'listar/Medico',
+        url: link_backend+'listar/Medico',
         method: 'GET',
         dataType: 'json',
         success: listar_medicos,
@@ -80,7 +80,7 @@ function listarMedicos() {
 // listar dados de um paciente 
 function listarDadosPaciente(){
     $.ajax({
-        url: link_backend_listar+ 'listar_paciente/'+id_paciente,
+        url: link_backend+ 'listar_paciente/'+id_paciente,
         method: "GET",
         dataType: "json",
         success: listar_paciente,
@@ -216,7 +216,7 @@ function listar_paciente(paciente){
 //listar consultas do paciente
 function listarDadosConsulta(){
     $.ajax({
-        url: link_backend_listar+ 'listar_consulta/'+id_paciente,
+        url: link_backend+ 'listar_consulta/'+id_paciente,
         method: "GET",
         dataType: "json",
         success: listar_consultas_paciente,
@@ -279,7 +279,7 @@ function listarDadosExame(){
 
 
     $.ajax({
-        url: link_backend_listar+ 'listar_exames_paciente/'+id_paciente,
+        url: link_backend+ 'listar_exames_paciente/'+id_paciente,
         method: "GET",
         dataType: "json",
         success: listar_exames_paciente,
@@ -344,7 +344,7 @@ function MedicosParaSelecionar() {
     
 
     $.ajax({
-        url: link_backend_listar+ 'listar/Medico',
+        url: link_backend+ 'listar/Medico',
         method: 'GET',
         dataType: 'json',
         success: medicos_select,
@@ -375,7 +375,7 @@ function dataConsultaParaSelecionar() {
     
 
     $.ajax({
-        url: link_backend_listar+ 'listar/Consulta',
+        url: link_backend+ 'listar/Consulta',
         method: 'GET',
         dataType: 'json',
         success: function(datas){
