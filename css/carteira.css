@@ -1,0 +1,54 @@
+
+
+.content{
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px;
+  margin-top: 5%;
+  
+}
+
+
+
+.tab-content{
+  height: auto;
+  color: white;
+  border-radius: 30px;
+  z-index: 1000;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  margin-bottom: 50px;
+  background-color: #73828c;
+  
+}
+
+.tab-content button{
+  border-radius: 15px;
+  
+  margin: 0 auto;
+  
+}
+
+.tituloSaldo{
+  color: #0070ba;
+}
+
+.boas-vindas{
+  color: #2c2e2f;
+  font-weight: 700;
+      font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-family: PayPalSansBig-Light,Helvetica Neue,Arial,sans-serif;
+}
+
+#saldoTotal{
+  font-size: 2.5rem;
+    line-height: 3rem;
+    font-family: PayPalSansBig-Light,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    color: #2c2e2f;
+}
+
+
+
