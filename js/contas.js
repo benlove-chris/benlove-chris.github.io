@@ -1,4 +1,4 @@
-link_backend = "http://localhost:5000"
+var link_backend = "http://benlove.pythonanywhere.com";
 //var id_usuario = document.location.search.replace(/^.*?\=/,'');
 ///var id_usuario = localStorage.getItem('usuario');
 $(document).ready(function(){

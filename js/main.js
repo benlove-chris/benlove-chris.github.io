@@ -1,11 +1,11 @@
 id_usuario = localStorage.getItem('usuario');
-var link_backend = "http://localhost:5000";
+var link_backend = "http://benlove.pythonanywhere.com";
 $(document).ready(function(){
 	//login required
-    /*if (id_usuario == null){
+    if (id_usuario == null){
 		alert("Necessita fazer login");
 		location.href = "../index.html";
-	}*/
+	}
 
 	//listar conta total
 	$.ajax({

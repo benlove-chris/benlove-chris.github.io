@@ -1,4 +1,4 @@
-link_backend = "http://localhost:5000"
+var link_backend = "http://benlove.pythonanywhere.com";
 var numeroConta = document.location.search.replace(/^.*?\=/,'');
 
 $(document).ready(function(){
