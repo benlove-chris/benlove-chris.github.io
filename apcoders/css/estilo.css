@@ -1,0 +1,15 @@
+body {
+   
+}
+
+table{
+	text-align: center;
+}
+
+tbody tr{
+	background-color: #ccccff;
+}
+
+.modal-body{
+	padding: 10%;
+}

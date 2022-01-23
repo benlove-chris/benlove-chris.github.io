@@ -11,7 +11,7 @@ $(document).ready(function(){
 	    
 	    
 	    
-	      alert(dados);
+	      
 	    
 	    $.ajax({
 	            url : link_backend +'/logar_usuario',
