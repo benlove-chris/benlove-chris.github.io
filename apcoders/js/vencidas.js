@@ -39,19 +39,6 @@ $(document).ready(function(){
                         "<td>" + despesas[i].vencimento_fatura+ "</td>" + 
                         "<td>" + despesas[i].unidade.idUnidade+ "</td>" + 
                         "<td>" + despesas[i].status_pagamento+ "</td>" +
-
-                        // btn btn-primary btn-sm rounded-0 - edit/Editar class
-                        
-                        
-                        "<td>"+                             
-                            '<ul class="list-inline m-0">'+
-                                '<li class="list-inline-item ">'+
-                                  '<i class="bi bi-pencil-fill" data-toggle="modal" data-target="#modalEditarDespesa" type="button" data-toggle="tooltip" data-placement="top" title="Editar"  onclick="chamarModalEditarDespesa('+despesas[i].idDespesa+ '); "></i>'+
-                                '</li> '+
-                  
-                                
-                            '</ul>'+
-                        "</td>"+
                         
                     "</tr>"
             $("#corpoDespesa").append(linha)
