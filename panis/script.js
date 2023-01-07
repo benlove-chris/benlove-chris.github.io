@@ -3,9 +3,9 @@ const d = new Date();
 let hour = d.getHours();
 
 $(document).ready(function() {
-	if (hour > 12 && hour < 24 ){
+	if (hour > 12 ){
 		$("#texto").html('\
-		<div id="noite" class="text-light ">\
+		<div id="noite" class="text-light  container-fluid p-5 text-white text-center">\
 			<h1>Antes de dormir</h1>\
 			<blockquote>\
 			\
@@ -44,9 +44,9 @@ $(document).ready(function() {
 		
 
 	}
-	else{
+	else if (hour  < 10  ){
 		$("#texto").html('\
-				<div id="manha" class="">\
+				<div id="manha" class="container-fluid p-5  text-center bg-white">\
 				\
 						<h1>Ao acordar</h1>\
 				     <strong> Ó Jesus, manso e humilde de coração</strong>, ouvi-me.<br>\
@@ -78,7 +78,18 @@ $(document).ready(function() {
 			</div>'
 			);
 		
-	}// end if
+	}
+	else{
+	$("body").html('\
+				<div id="q_outro" class="container-fluid p-5 text-center">\
+				\
+				<iframe width="80%" height="300" src="https://www.youtube.com/embed/kp7wNDZ6nhM">\
+				</iframe>\
+			</div>'
+			);
+
+	}
+	// end if
 	
 	
 	
