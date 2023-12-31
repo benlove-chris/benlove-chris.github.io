@@ -6,7 +6,7 @@ $(document).ready(function() {
 	if (hour > 12 ){
 		$("#texto").html('\
 		<div id="noite" class="text-light  container-fluid p-5 text-white text-center">\
-			<h1>Antes de dormir</h1>\
+			<h1>Fica Senhor comigo - Padre Pio</h1>\
 			<blockquote>\
 			\
 				<strong>Fica Senhor comigo,</strong> pois preciso da tua presença para não te esquecer.<br>\
@@ -48,7 +48,7 @@ $(document).ready(function() {
 		$("#texto").html('\
 				<div id="manha" class="container-fluid p-5  text-center bg-white">\
 				\
-						<h1>Ao acordar</h1>\
+						<h1>Ladainha da humildade</h1>\
 				     <strong> Ó Jesus, manso e humilde de coração</strong>, ouvi-me.<br>\
 					 <strong> Do desejo de ser estimado</strong>, livrai-me, ó Jesus.<br>\
 					 <strong> Do desejo de ser amado</strong>, livrai-me, ó Jesus.<br>\
