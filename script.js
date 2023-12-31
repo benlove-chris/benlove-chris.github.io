@@ -6,7 +6,7 @@ $(document).ready(function() {
 	if (hour > 12 ){
 		$("#texto").html('\
 		<div id="noite" class="text-light  container-fluid p-5 text-white text-center">\
-			<h1>Fica Senhor comigo - Padee Pio</h1>\
+			<h1>Fica Senhor comigo - Padre Pio</h1>\
 			<blockquote>\
 			\
 				<strong>Fica Senhor comigo,</strong> pois preciso da tua presença para não te esquecer.<br>\
